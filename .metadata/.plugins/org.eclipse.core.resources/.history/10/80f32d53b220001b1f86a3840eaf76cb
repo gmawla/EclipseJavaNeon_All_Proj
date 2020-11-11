@@ -1,0 +1,37 @@
+package TestCases;
+
+import java.io.IOException;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import utilities.base;
+
+public class LoginPageTest extends base {
+	
+	public WebDriver driver;
+	public static Logger log = LogManager.getLogger(base.class.getName());
+	
+	@BeforeTest
+	public void invokeDriver() throws IOException{
+		log.info("LoginPage_Invoke driver");
+		driver = initiateDriver();
+		log.info("LoginPage_Invoke driver success");
+
+	}
+
+	@Test
+	public void loginPage(){
+		log.info("LoginPage_get url");
+		driver.get(prop.getProperty("loginPageUrl"));
+		log.info("LoginPage_get url success");
+		
+	}
+	
+	
+	
+	
+}

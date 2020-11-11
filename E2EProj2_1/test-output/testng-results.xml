@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="13839" started-at="2020-11-06T05:49:09Z" finished-at="2020-11-06T05:49:23Z">
+    <groups>
+    </groups>
+    <test name="HomePage Validate Featured Course Text" duration-ms="11543" started-at="2020-11-06T05:49:09Z" finished-at="2020-11-06T05:49:21Z">
+      <class name="TestCases.HomePageTest">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:TestCases.HomePageTest@48aca48b]" name="initializeDriver" is-config="true" duration-ms="8748" started-at="2020-11-05T21:49:09Z" finished-at="2020-11-05T21:49:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="FAIL" signature="validateFeaturedCourse()[pri:0, instance:TestCases.HomePageTest@48aca48b]" name="validateFeaturedCourse" duration-ms="2067" started-at="2020-11-05T21:49:18Z" finished-at="2020-11-05T21:49:20Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Featured Cos] but found [Featured Courses]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Featured Cos] but found [Featured Courses]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at TestCases.HomePageTest.validateFeaturedCourse(HomePageTest.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFeaturedCourse -->
+        <test-method status="PASS" signature="tearDrown()[pri:0, instance:TestCases.HomePageTest@48aca48b]" name="tearDrown" is-config="true" duration-ms="138" started-at="2020-11-05T21:49:20Z" finished-at="2020-11-05T21:49:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDrown -->
+      </class> <!-- TestCases.HomePageTest -->
+    </test> <!-- HomePage Validate Featured Course Text -->
+    <test name="Validate Login Credentials" duration-ms="13839" started-at="2020-11-06T05:49:09Z" finished-at="2020-11-06T05:49:23Z">
+      <class name="TestCases.LoginPageTest">
+        <test-method status="PASS" signature="initiateDriver()[pri:0, instance:TestCases.LoginPageTest@70e9c95d]" name="initiateDriver" is-config="true" duration-ms="6402" started-at="2020-11-05T21:49:09Z" finished-at="2020-11-05T21:49:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateDriver -->
+        <test-method status="PASS" signature="LoginPage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.LoginPageTest@70e9c95d]" name="LoginPage" duration-ms="6133" started-at="2020-11-05T21:49:16Z" data-provider="getData" finished-at="2020-11-05T21:49:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FirstSetDataEmailID]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstPassword]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[firstUser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPage -->
+        <test-method status="PASS" signature="LoginPage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.LoginPageTest@70e9c95d]" name="LoginPage" duration-ms="1206" started-at="2020-11-05T21:49:22Z" data-provider="getData" finished-at="2020-11-05T21:49:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SecondSetDataEmailID]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SecondPassword]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SecondtUser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPage -->
+        <test-method status="PASS" signature="tearDrown()[pri:0, instance:TestCases.LoginPageTest@70e9c95d]" name="tearDrown" is-config="true" duration-ms="86" started-at="2020-11-05T21:49:23Z" finished-at="2020-11-05T21:49:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDrown -->
+      </class> <!-- TestCases.LoginPageTest -->
+    </test> <!-- Validate Login Credentials -->
+  </suite> <!-- Suite -->
+</testng-results>

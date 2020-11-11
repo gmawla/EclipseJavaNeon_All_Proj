@@ -1,0 +1,16 @@
+package utilities;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
+public class base {
+	public void invokeDriver() throws FileNotFoundException{
+	
+	String path = System.getProperty("user.dir")+"\\src\\main\\java\\utilities\\data.properties";
+	FileInputStream fis = new FileInputStream(path);
+	
+	
+	
+	
+	}
+}

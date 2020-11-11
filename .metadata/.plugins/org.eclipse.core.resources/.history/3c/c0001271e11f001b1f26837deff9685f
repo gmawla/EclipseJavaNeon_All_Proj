@@ -1,0 +1,19 @@
+package utilities;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
+
+public class base {
+	public void invokeDriver() throws IOException {
+
+		Properties prop = new Properties();
+		String path = System.getProperty("user.dir") + "\\src\\main\\java\\utilities\\data.properties";
+		FileInputStream fis = new FileInputStream(path);
+		prop.load(fis);
+String browserName = prop.getProperty("browser");
+System.out.println(browserName);
+
+	}
+}

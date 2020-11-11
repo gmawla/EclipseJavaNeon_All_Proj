@@ -1,0 +1,36 @@
+21:32:20.831 [TestNG] INFO  utilities.base - initiate loginPage driver
+21:32:20.831 [TestNG] INFO  utilities.base - invoking homePage driver
+21:32:27.700 [TestNG] INFO  utilities.base - initiate loginPage driver-success
+21:32:27.700 [TestNG] INFO  utilities.base - invoking homePage driver-success.
+21:34:21.527 [TestNG] INFO  utilities.base - invoking homePage driver
+21:34:21.527 [TestNG] INFO  utilities.base - initiate loginPage driver
+21:34:27.929 [TestNG] INFO  utilities.base - invoking homePage driver-success.
+21:34:27.944 [TestNG] INFO  utilities.base - initiate loginPage driver-success
+21:36:05.112 [main] INFO  utilities.base - initiate loginPage driver
+21:36:11.412 [main] INFO  utilities.base - initiate loginPage driver-success
+21:37:29.732 [main] INFO  utilities.base - initiate loginPage driver
+21:37:35.994 [main] INFO  utilities.base - initiate loginPage driver-success
+21:37:59.048 [TestNG] INFO  utilities.base - invoking homePage driver
+21:37:59.048 [TestNG] INFO  utilities.base - initiate loginPage driver
+21:38:05.456 [TestNG] INFO  utilities.base - initiate loginPage driver-success
+21:38:05.471 [TestNG] INFO  utilities.base - invoking homePage driver-success.
+21:42:10.513 [main] INFO  utilities.base - initiate loginPage driver
+21:42:16.742 [main] INFO  utilities.base - initiate loginPage driver-success
+21:42:41.980 [TestNG] INFO  utilities.base - invoking homePage driver
+21:42:41.980 [TestNG] INFO  utilities.base - initiate loginPage driver
+21:42:48.340 [TestNG] INFO  utilities.base - initiate loginPage driver-success
+21:42:48.340 [TestNG] INFO  utilities.base - invoking homePage driver-success.
+21:47:58.518 [main] INFO  utilities.base - initiate loginPage driver
+21:48:04.716 [main] INFO  utilities.base - initiate loginPage driver-success
+21:48:04.735 [main] INFO  utilities.base - Initiate login page url
+21:48:07.864 [main] INFO  utilities.base - Initiate login page url
+21:48:45.541 [main] INFO  utilities.base - initiate loginPage driver
+21:48:51.761 [main] INFO  utilities.base - initiate loginPage driver-success
+21:48:51.773 [main] INFO  utilities.base - Initiate login page url
+21:48:54.850 [main] INFO  utilities.base - Initiate login page url
+21:49:09.604 [TestNG] INFO  utilities.base - invoking homePage driver
+21:49:09.604 [TestNG] INFO  utilities.base - initiate loginPage driver
+21:49:15.997 [TestNG] INFO  utilities.base - initiate loginPage driver-success
+21:49:16.012 [TestNG] INFO  utilities.base - invoking homePage driver-success.
+21:49:16.016 [TestNG] INFO  utilities.base - Initiate login page url
+21:49:22.139 [TestNG] INFO  utilities.base - Initiate login page url

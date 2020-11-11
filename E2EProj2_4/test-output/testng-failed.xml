@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="TestCases.Listener"/>
+  </listeners>
+  <test name="Validate Fueatured Course text">
+    <classes>
+      <class name="TestCases.ValidateFeaturedCrsTest"/>
+    </classes>
+  </test> <!-- Validate Fueatured Course text -->
+  <test name="Validate Navigation Bar">
+    <classes>
+      <class name="TestCases.ValidateNavigationBarTest"/>
+    </classes>
+  </test> <!-- Validate Navigation Bar -->
+  <test name="Login Page">
+    <classes>
+      <class name="TestCases.LoginPageTest"/>
+    </classes>
+  </test> <!-- Login Page -->
+  <test name="Validate Fueatured Course text(failed)" parallel="tests">
+    <classes>
+      <class name="TestCases.ValidateNavigationBarTest">
+        <methods>
+          <include name="tearDrown"/>
+          <include name="invokeDriver"/>
+        </methods>
+      </class> <!-- TestCases.ValidateNavigationBarTest -->
+      <class name="TestCases.ValidateFeaturedCrsTest">
+        <methods>
+          <include name="invokeDriver"/>
+          <include name="ValidateFeaturedCourseText"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.ValidateFeaturedCrsTest -->
+      <class name="TestCases.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="invokeDriver"/>
+        </methods>
+      </class> <!-- TestCases.LoginPageTest -->
+    </classes>
+  </test> <!-- Validate Fueatured Course text(failed) -->
+</suite> <!-- Failed suite [Suite] -->

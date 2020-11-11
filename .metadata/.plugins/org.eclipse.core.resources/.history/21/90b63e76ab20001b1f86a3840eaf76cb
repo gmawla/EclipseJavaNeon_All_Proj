@@ -1,0 +1,3 @@
+browser = chrome
+homePageUrl = https://rahulshettyacademy.com/#/index
+loginPageUrl=https://sso.teachable.com/secure/9521/users/sign_in?clean_login=true&reset_purchase_session=1

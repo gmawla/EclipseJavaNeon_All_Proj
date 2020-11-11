@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="TestCases.Listener"/>
+  </listeners>
+  <test name="HomePage Validate Featured Course Text">
+    <classes>
+      <class name="TestCases.HomePageTest"/>
+    </classes>
+  </test> <!-- HomePage Validate Featured Course Text -->
+  <test name="Validate Login Credentials">
+    <classes>
+      <class name="TestCases.LoginPageTest"/>
+    </classes>
+  </test> <!-- Validate Login Credentials -->
+  <test name="HomePage Validate Featured Course Text(failed)" parallel="tests">
+    <classes>
+      <class name="TestCases.LoginPageTest">
+        <methods>
+          <include name="initiateDriver"/>
+          <include name="tearDrown"/>
+        </methods>
+      </class> <!-- TestCases.LoginPageTest -->
+      <class name="TestCases.HomePageTest">
+        <methods>
+          <include name="initializeDriver"/>
+          <include name="tearDrown"/>
+          <include name="validateFeaturedCourse"/>
+        </methods>
+      </class> <!-- TestCases.HomePageTest -->
+    </classes>
+  </test> <!-- HomePage Validate Featured Course Text(failed) -->
+</suite> <!-- Failed suite [Suite] -->

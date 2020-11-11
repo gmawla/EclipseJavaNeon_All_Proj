@@ -1,0 +1,57 @@
+21:10:42.336 [TestNG] INFO  utilities.base - ValidateNavigationBarTest_invoke driver
+21:10:42.336 [TestNG] INFO  utilities.base - LoginPage_Invoke driver
+21:10:42.336 [TestNG] INFO  utilities.base - ValidateFeaturedCrsTest_invoke driver
+21:10:48.801 [TestNG] INFO  utilities.base - ValidateFeaturedCrsTest_invoke driver success
+21:10:48.820 [TestNG] INFO  utilities.base - ValidateFeaturedCrsTest_get url
+21:10:48.955 [TestNG] INFO  utilities.base - ValidateNavigationBarTest_invoke driver success
+21:10:48.956 [TestNG] INFO  utilities.base - ValidateNavigationBarTest_get url
+21:10:49.003 [TestNG] INFO  utilities.base - LoginPage_Invoke driver success
+21:10:49.005 [TestNG] INFO  utilities.base - LoginPage_get url
+21:10:50.316 [TestNG] INFO  utilities.base - ValidateFeaturedCrsTest_get url success
+21:10:50.357 [TestNG] INFO  utilities.base - ValidateNavigationBarTest_get url success
+21:10:52.056 [TestNG] INFO  utilities.base - LoginPage_get url success
+21:10:53.061 [TestNG] INFO  utilities.base - LoginPage_get url
+21:10:54.616 [TestNG] INFO  utilities.base - LoginPage_get url success
+21:13:06.264 [TestNG] INFO  utilities.base - LoginPage_Invoke driver
+21:13:06.264 [TestNG] INFO  utilities.base - ValidateFeaturedCrsTest_invoke driver
+21:13:06.264 [TestNG] INFO  utilities.base - ValidateNavigationBarTest_invoke driver
+21:13:12.943 [TestNG] INFO  utilities.base - ValidateFeaturedCrsTest_invoke driver success
+21:13:12.957 [TestNG] INFO  utilities.base - ValidateFeaturedCrsTest_get url
+21:13:12.991 [TestNG] INFO  utilities.base - ValidateNavigationBarTest_invoke driver success
+21:13:12.992 [TestNG] INFO  utilities.base - ValidateNavigationBarTest_get url
+21:13:13.007 [TestNG] INFO  utilities.base - LoginPage_Invoke driver success
+21:13:13.010 [TestNG] INFO  utilities.base - LoginPage_get url
+21:13:14.073 [TestNG] INFO  utilities.base - ValidateFeaturedCrsTest_get url success
+21:13:14.346 [TestNG] INFO  utilities.base - ValidateNavigationBarTest_get url success
+21:13:16.364 [TestNG] INFO  utilities.base - LoginPage_get url success
+21:13:17.163 [TestNG] INFO  utilities.base - LoginPage_get url
+21:13:19.057 [TestNG] INFO  utilities.base - LoginPage_get url success
+21:19:11.702 [TestNG] INFO  utilities.base - ValidateNavigationBarTest_invoke_driver
+21:19:11.702 [TestNG] INFO  utilities.base - LoginPage_Invoke_driver
+21:19:11.702 [TestNG] INFO  utilities.base - ValidateFeaturedCrsTest_invoke_driver
+21:19:18.210 [TestNG] INFO  utilities.base - ValidateNavigationBarTest_invoke_driver success
+21:19:18.229 [TestNG] INFO  utilities.base - ValidateNavigationBarTest_get_url
+21:19:18.289 [TestNG] INFO  utilities.base - LoginPage_Invoke_driver success
+21:19:18.292 [TestNG] INFO  utilities.base - LoginPage_get_url
+21:19:18.321 [TestNG] INFO  utilities.base - ValidateFeaturedCrsTest_invoke_driver success
+21:19:18.322 [TestNG] INFO  utilities.base - ValidateFeaturedCrsTest_get_url
+21:19:19.544 [TestNG] INFO  utilities.base - ValidateNavigationBarTest_get_url success
+21:19:19.988 [TestNG] INFO  utilities.base - ValidateFeaturedCrsTest_get_url success
+21:19:21.432 [TestNG] INFO  utilities.base - LoginPage_get_url success
+21:19:22.137 [TestNG] INFO  utilities.base - LoginPage_get_url
+21:19:24.088 [TestNG] INFO  utilities.base - LoginPage_get_url success
+21:22:26.457 [TestNG] INFO  utilities.base - ValidateFeaturedCrsTest_invoke_driver
+21:22:26.457 [TestNG] INFO  utilities.base - ValidateNavigationBarTest_invoke_driver
+21:22:26.457 [TestNG] INFO  utilities.base - LoginPage_Invoke_driver
+21:22:32.997 [TestNG] INFO  utilities.base - ValidateFeaturedCrsTest_invoke_driver success
+21:22:33.015 [TestNG] INFO  utilities.base - ValidateFeaturedCrsTest_get_url
+21:22:33.119 [TestNG] INFO  utilities.base - ValidateNavigationBarTest_invoke_driver success
+21:22:33.120 [TestNG] INFO  utilities.base - ValidateNavigationBarTest_get_url
+21:22:33.152 [TestNG] INFO  utilities.base - LoginPage_Invoke_driver success
+21:22:33.155 [TestNG] INFO  utilities.base - LoginPage_get_url
+21:22:34.420 [TestNG] INFO  utilities.base - ValidateFeaturedCrsTest_get_url success
+21:22:34.420 [TestNG] INFO  utilities.base - ValidateFeaturedCrsTest_get_validate_text
+21:22:34.657 [TestNG] INFO  utilities.base - ValidateNavigationBarTest_get_url success
+21:22:36.086 [TestNG] INFO  utilities.base - LoginPage_get_url success
+21:22:37.687 [TestNG] INFO  utilities.base - LoginPage_get_url
+21:22:39.142 [TestNG] INFO  utilities.base - LoginPage_get_url success

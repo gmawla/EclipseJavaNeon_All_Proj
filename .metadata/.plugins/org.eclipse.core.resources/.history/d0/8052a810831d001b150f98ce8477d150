@@ -1,0 +1,42 @@
+package TestCases;
+
+import java.io.IOException;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import PageObject.ValidateText;
+import Utilities.base;
+
+public class ValidateTitleTest extends base {
+	public static Logger log = LogManager.getLogger(base.class.getName());
+public WebDriver driver;
+	@BeforeTest
+	public void initiateDriver() throws IOException {
+		log.info("Initiate driver.");
+		driver = initializeDriver();
+		log.info("Initiate driver --Pass.");
+		log.info("Navigate HomePage");
+		driver.get(prop.getProperty("homePageUrl"));
+		log.info("Navigate HomePage --Passed.");
+	}
+
+	@Test
+	public void ValidateTitle() throws IOException {
+		log.info("Validate text.");
+		ValidateText ValidateText = new ValidateText(driver);
+		Assert.assertEquals(ValidateText.FeaturedCrsText().getText(), "Featured Cses");
+		log.info("Validate text --Passed.");
+	}
+
+	@AfterTest
+	public void tearDown() {
+		driver.close();
+	}
+
+}

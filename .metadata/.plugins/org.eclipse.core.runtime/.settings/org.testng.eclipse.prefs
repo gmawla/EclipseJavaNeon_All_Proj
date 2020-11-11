@@ -1,0 +1,9 @@
+E2EProj2_1.outdir=/test-output
+E2EProj2_1.useProjectJar=false
+E2EProj2_2.outdir=/test-output
+E2EProj2_2.useProjectJar=false
+E2EProj2_3.outdir=/test-output
+E2EProj2_3.useProjectJar=true
+E2EProj2_4.outdir=/test-output
+E2EProj2_4.useProjectJar=false
+eclipse.preferences.version=1

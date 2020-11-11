@@ -1,0 +1,54 @@
+package TestCases;
+
+import java.io.IOException;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+import PageObject.LoginPageObj;
+import utilities.base;
+
+public class LoginPageTest extends base {
+	public WebDriver driver;
+	public static Logger log = LogManager.getLogger(base.class.getName());
+	
+	
+	@BeforeTest
+	public void initiateDriver() throws IOException{
+		log.info("initiate loginPage driver");
+		driver = invokeDriver();
+		log.info("initiate loginPage driver-success");
+		
+	}
+	
+	@Test(dataProvider="getData")
+	public void LoginPage(String email, String password, String userType)
+	{
+		driver.get(prop.getProperty("loginPageUrl"));
+		LoginPageObj LoginPage = new LoginPageObj(driver);
+		LoginPage.EnterEmail().sendKeys(email);
+		LoginPage.EnterPassword().sendKeys(password);
+		System.out.println(userType);
+	}
+	
+	@DataProvider
+	public Object[][] getData()
+	{
+		Object[][] data = new Object[2][3];
+		data[0][0] =  "FirstSetDataEmailID";
+		data[0][1] = "firstPassword";
+		data[0][2]="firstUser";
+		data[0][0] =  "SecondSetDataEmailID";
+		data[0][1] = "SecondPassword";
+		data[0][2]="SecondtUser";	
+		return data;
+	}
+	public void tearDrown(){
+		driver.close();
+	}
+
+}

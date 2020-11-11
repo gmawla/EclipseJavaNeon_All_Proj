@@ -1,0 +1,35 @@
+package PageObject;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class LoginPageObj {
+
+	WebDriver driver;
+
+	public LoginPageObj(WebDriver driver) {
+		this.driver = driver;
+		PageFactory.initElements(driver, this);
+	}
+
+	@FindBy(xpath = "//input[@type='email']")
+	WebElement email;
+	@FindBy(id = "user_password")
+	WebElement password;
+	@FindBy(xpath = "//input[@type='submit']")
+	WebElement submit;
+
+	public WebElement EnterEmail() {
+		return email;
+	}
+
+	public WebElement EnterPassword() {
+		return password;
+	}
+
+	public WebElement LoginSubmit() {
+		return submit;
+	}
+}
